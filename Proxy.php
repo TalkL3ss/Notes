@@ -92,7 +92,11 @@ $opts = array(
 
 	"Content-Type: $contype\r\n"
 
-  )
+  ), 
+	'ssl' => array(
+                        'verify_peer'      => false,
+                        'verify_peer_name' => false,
+                        )
 
 );
 
